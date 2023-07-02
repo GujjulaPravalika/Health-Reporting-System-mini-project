@@ -1,0 +1,87 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="prac.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="sectionHome">
+            <div class="d-flex flex-row homebg">
+                <div>
+                    <img src="https://img.freepik.com/free-vector/start_53876-25533.jpg?w=740&t=st=1682501654~exp=1682502254~hmac=28c4a6306eec0c0b8932b46f9d7e0134ce32e17fbca6b681bf2f957e694f21a6.jpg" class="homeicon"/>
+                </div>
+                <div class="homespace">
+                    <p>Home</p>
+                </div>
+                <div class="homespace">
+                    <p>Sign up</p>
+                </div>
+                <div class="homespace">
+                    <p>Login</p>
+                </div>
+            </div>
+                <div class="homehead">
+                    <div class="homeh1">
+                           <h1>Cloud Based Health Record System</h1>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="para">
+                            <p class="para">It is used to store health records in digital way.</p>
+                            <p class="para">It can accessed from anywhere anytime.</p>
+                            <p class="para">We must reimagine the digital way of storing health records are not only as a document but as a system that supports the generation and tracking of multiple documents, events, and processes.</p>
+                        </div>
+                        <div >
+                            <img src="https://www.cdc.gov/ncbddd/hemoglobinopathies/images/electronic-medical-record.jpg" class="homeimg"/><br></br>
+                        </div>
+                    </div>
+                    <div class="btn1">
+                        <div >
+                            <button class="btn btn-secondary" onclick="display('sectionLogin')" >Login</button>
+                            <button class="btn btn-secondary" onclick="display('sectionReg')" >SignUp</button>
+                        </div>
+                    </div>
+                </div> 
+        </div>
+        <div id="sectionLogin">
+            <h1 class="loginhead">Login</h1><br/>
+            <div class="loginbg">
+                <div class="loginDetails">
+                    User_Name: <input type="text" name="User_Name"  placeholder="User name"/></br></br>
+                    Password:  <input type="text" name="Password"   placeholder="password"/></br></br>
+                    <button >Login</button>
+                </div></br>
+                <div class="back">
+                    <button class="btn btn-secondary " onclick="display('sectionHome')" >Back</button>
+                </div>
+            </div>
+        </div>
+        <div id="sectionReg">
+            <h1 class="register">Register</h1><br/>
+            <div class="registerbg">
+                <div class="registerDetails">
+                    firstName: <input type="text" name="FirstName"  placeholder="firstname"/></br></br>
+                    LastName:  <input type="text" name="lastName"   placeholder="lastName"/></br></br>
+                    contactNum:<input type="text" name="mobileNum" placeholder="mobileNum"/></br></br>
+                    mailId:   <input type="text" name="mail"    placeholder="gmail"/></br></br>
+                    age:       <input type="text" name="age"        placeholder="age"/></br></br>
+                    Gender<br/>
+                        <input type="radio" name="gender" placeholder="male"/>Male
+                        <input type="radio" name="gender" placeholder="female"/>Female
+                        <input type="radio" name="gender" placeholder="other"/>other<br/></br>
+                    Create Password:<input type="text"  placeholder="create password" /></br></br>
+                    Reenter Password:<input type="text"  placeholder="Reenter password" /></br></br>
+                    <button >Register</button>
+                    </div></br>
+                    <div class="back">
+                        <button class="btn btn-secondary " onclick="display('sectionHome')" >Back</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    </body>
+</html>
